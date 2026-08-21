@@ -64,11 +64,16 @@ body {
   text-decoration: none;
   letter-spacing: 0.5px;
   text-shadow: 0 0 12px rgba(201, 162, 39, 0.4);
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.site-title .rune {
-  color: var(--purple-bright);
-  margin-right: 6px;
+.site-logo {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 6px rgba(168, 85, 247, 0.5));
 }
 
 .header-nav a {
