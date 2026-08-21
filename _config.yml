@@ -1,3 +1,8 @@
-theme: jekyll-theme-cayman
 title: Azeroth Universe - Documentation
 description: Installation guides and tutorials for the AzerothUniverseCore / UniverseEmu project
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

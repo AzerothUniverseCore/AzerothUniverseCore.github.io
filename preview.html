@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aperçu du thème - Azeroth Universe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-title" href="#">
+        <span class="rune">✦</span> Azeroth Universe
+      </a>
+      <nav class="header-nav">
+        <a href="#">Discord</a>
+        <a href="#">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="content">
+    <div class="content-panel">
+
+      <h1>Azeroth Universe — Documentation</h1>
+
+      <p><a href="#">English</a> · <a href="#">Discord</a> · <a href="#">GitHub</a></p>
+
+      <h2>Qu'est-ce qu'AzerothUniverseCore / UniverseEmu ?</h2>
+
+      <p>UniverseEmu est un framework de serveur basé sur TrinityCore (3.3.5a) qui fait tourner le projet Azeroth Universe. Il apporte du contenu et des systèmes issus de <strong>Cataclysm</strong> et de <strong>Mists of Pandaria</strong> sur un client WotLK 3.3.5a, ainsi qu'un grand nombre de systèmes personnalisés.</p>
+
+      <h2>Guide d'installation</h2>
+
+      <ol>
+        <li><a href="#">Prérequis</a></li>
+        <li><a href="#">Installation du core</a></li>
+        <li><a href="#">Configuration du serveur</a></li>
+        <li><a href="#">Configuration du client</a></li>
+      </ol>
+
+      <h3>Logiciels requis</h3>
+
+      <ul>
+        <li>Git Extensions ≥ 2.51.2</li>
+        <li>MS Visual Studio Community ≥ 17.0 (2022)</li>
+        <li>MariaDB ≥ 10.5.8</li>
+        <li>Boost ≥ 1.78</li>
+      </ul>
+
+      <blockquote>
+        <p>⚠️ N'oublie pas de renseigner le mot de passe root MariaDB défini à l'installation — tu en auras besoin pour configurer <code>worldserver.conf</code>.</p>
+      </blockquote>
+
+      <h3>Exemple de configuration</h3>
+
+      <pre><code>LoginDatabaseInfo     = "127.0.0.1;3306;root;TON_MOT_DE_PASSE;auth"
+WorldDatabaseInfo     = "127.0.0.1;3306;root;TON_MOT_DE_PASSE;world"
+CharacterDatabaseInfo = "127.0.0.1;3306;root;TON_MOT_DE_PASSE;characters"</code></pre>
+
+      <p>Continue vers <a href="#">l'installation du core →</a></p>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Azeroth Universe &middot; <a href="#">Discord</a> &middot; <a href="#">GitHub</a></p>
+  </footer>
+
+</body>
+</html>
